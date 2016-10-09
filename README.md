@@ -2,9 +2,20 @@
 Documentation on the protocol for  Old EE
 
 # Important Data
+
 Game Id : `everybody-edits-old-gue3mggr0mppaimep8jw`
+
 Room Type: `FlixelWalker1`
+
 Connect `PlayerIO.connect(stage,"everybody-edits-old-gue3mggr0mppaimep8jw","public","whatever","",function(c:Client):void`
+
+## How RoomId works
+
+You need to get the X and Y position of the world in the lobby.
+
+The X ranges from 0 to 8, and the Y ranges from 0-5
+
+So an example looks like this: `0x0`, `8x5`, and everything inbetween.
 
 # Send
 
