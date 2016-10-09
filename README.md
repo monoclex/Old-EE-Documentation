@@ -1,13 +1,19 @@
-# Old-EE-Documentation
+# Old EE Documentation
 Documentation on the protocol for  Old EE
 
 # Important Data
 
-Game Id : `everybody-edits-old-gue3mggr0mppaimep8jw`
+Game Id: `everybody-edits-old-gue3mggr0mppaimep8jw`
 
 Room Type: `FlixelWalker1`
 
-Connect `PlayerIO.connect(stage,"everybody-edits-old-gue3mggr0mppaimep8jw","public","whatever","",function(c:Client):void`
+Sample Connection Code:
+
+`
+Client OldEEClient = PlayerIO.Connect("everybody-edits-old-gue3mggr0mppaimep8jw", "public", "whatever", "", "");
+Connection OldEEConnection = OldEEClient.Multiplayer.CreateJoinRoom("0x0", "FlixelWalker1", true, null, null);
+OldEEConnection.Send("init");
+`
 
 ## How RoomId works
 
