@@ -32,7 +32,9 @@ So an example looks like this: `0x0`, `8x5`, and everything inbetween.
 Send to place a block
 
 Arg 1: Int, The X position of the block
+
 Arg 2: Int, The Y position of the block
+
 Arg 3: Int, The block Id.
 
 ## face
@@ -56,12 +58,19 @@ Send to fully connect
 Send to move
 
 Arg 1: Double, The X position.
+
 Arg 2: Double, The Y position.
+
 Arg 3: Double, The SpeedX.
+
 Arg 4: Double, The SpeedY.
+
 Arg 5: Double, The Modifier X.
+
 Arg 6: Double, The Modifier Y.
+
 Arg 7: Double, Something.
+
 Arg 8: Double, Something.
 
 # Recieve
@@ -112,3 +121,25 @@ Arg 2: Int, Your player Id.
 Recieved when someone leaves the world
 
 Arg 1: Int, Their player Id.
+
+## update
+
+8 Args
+
+Send to move
+
+Arg 1: Double, The X position.
+
+Arg 2: Double, The Y position.
+
+Arg 3: Double, The SpeedX.
+
+Arg 4: Double, The SpeedY.
+
+Arg 5: Double, The Modifier X.
+
+Arg 6: Double, The Modifier Y.
+
+Arg 7: Double, Something.
+
+Arg 8: Double, Something.
